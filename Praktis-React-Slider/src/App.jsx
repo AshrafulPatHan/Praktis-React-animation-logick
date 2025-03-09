@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h2>Hello World</h2>
-      <p>Baner and slider</p>
-    </>
+    <div>
+      <h2 className='text-center font-bold text-5xl text-blue-500 mb-5'>All Project</h2>
+      <div className='flex flex-col items-center gap-3'>
+        <Link to='/baner1'>Baner 1</Link>
+        <Link to='/baner2'>Baner 2</Link>
+        <Link to='/baner3'>Baner 3</Link>
+      </div>
+      
+    </div>
   )
 }
 
