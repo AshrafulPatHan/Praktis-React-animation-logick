@@ -4,11 +4,11 @@ require('dotenv').config();
 const PORT = 5000
 
 app.listen(PORT,()=> {
-	console.log(`server is runing ${PORT}`)
+	console.log(`server is running ${PORT}`)
 })
 
 app.get('/',(req,res) =>{
-	res.send("server is runing")
+	res.send("server is running")
 })
 
 
