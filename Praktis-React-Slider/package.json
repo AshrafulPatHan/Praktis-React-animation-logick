@@ -12,6 +12,7 @@
   "dependencies": {
     "@radix-ui/themes": "^3.2.1",
     "@tailwindcss/vite": "^4.0.8",
+    "motion": "^12.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^6.29.0",
