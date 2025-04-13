@@ -8,7 +8,7 @@ import Baner1 from "./Components/Baner/Baner1.jsx";
 import Baner2 from "./Components/Baner/Baner2.jsx";
 import Baner3 from "./Components/Baner/Baner3.jsx";
 
-const root = document.getElementById("root");
+const root = document.getElementById("root");+
 
 ReactDOM.createRoot(root).render(
 <Provider store={store}>
