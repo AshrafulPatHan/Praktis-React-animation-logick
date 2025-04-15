@@ -9,7 +9,7 @@ function App() {
       <div className='flex flex-col items-center gap-3'>
         <Link to='/baner1'>Baner 1</Link>
         <Link to='/baner2'>counter 2</Link>
-        <Link to='/baner3'>Branch 3</Link>
+        <Link to='/baner3'>animation 3</Link>
       </div>
       
     </div>
