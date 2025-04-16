@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Snowfall from 'react-snowfall'
-import snowflake from '../../assets/snowflake.png'
+import snowflake1 from '../../assets/snowflake.png'
+import snowflake2 from '../../assets/icons8-snowflake-50.png'
 
 const Baner3 = () => {
     const [snow,setSnow] = useState(true)
@@ -16,7 +17,7 @@ const Baner3 = () => {
                     speed={[1, 3]}
                     wind={[0, 2]} 
                     radius={[1, 3]}
-                    // images={[snowflake]}
+                    images={[snowflake1, snowflake2]}
                     />
                 ):(
                 <div></div>
