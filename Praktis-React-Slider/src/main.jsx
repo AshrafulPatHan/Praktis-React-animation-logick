@@ -9,6 +9,8 @@ import Baner2 from "./Components/Baner/Baner2.jsx";
 import Baner3 from "./Components/Baner/Baner3.jsx";
 import Gsap from "./Components/gsap/Gsap.jsx";
 
+
+
 const root = document.getElementById("root");+
 
 ReactDOM.createRoot(root).render(
