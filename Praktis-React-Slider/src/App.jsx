@@ -10,6 +10,7 @@ function App() {
         <Link to='/baner1'>Baner 1</Link>
         <Link to='/baner2'>counter 2</Link>
         <Link to='/baner3'>animation 3</Link>
+        <Link to='/gsap'>Gsap</Link>
       </div>
       
     </div>

@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import Baner1 from "./Components/Baner/Baner1.jsx";
 import Baner2 from "./Components/Baner/Baner2.jsx";
 import Baner3 from "./Components/Baner/Baner3.jsx";
+import Gsap from "./Components/gsap/Gsap.jsx";
 
 const root = document.getElementById("root");+
 
@@ -18,6 +19,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/baner1" element={<Baner1 />} />
       <Route path="/baner2" element={<Baner2 />} />
       <Route path="/baner3" element={<Baner3 />} /> 
+      <Route path="/gsap" element={<Gsap />} /> 
     </Routes>
   </BrowserRouter>
 </Provider>
