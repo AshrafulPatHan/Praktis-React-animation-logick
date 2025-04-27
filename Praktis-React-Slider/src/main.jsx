@@ -8,6 +8,9 @@ import Baner1 from "./Components/Baner/Baner1.jsx";
 import Baner2 from "./Components/Baner/Baner2.jsx";
 import Baner3 from "./Components/Baner/Baner3.jsx";
 import Gsap from "./Components/gsap/Gsap.jsx";
+import Gsap_1 from "./Components/gsap/Gsap_1.jsx";
+import Gsap_2 from "./Components/gsap/Gsap_2.jsx";
+import Browser from "./page/Browser.jsx";
 
 
 
@@ -22,6 +25,9 @@ ReactDOM.createRoot(root).render(
       <Route path="/baner2" element={<Baner2 />} />
       <Route path="/baner3" element={<Baner3 />} /> 
       <Route path="/gsap" element={<Gsap />} /> 
+      <Route path="/gsap1" element={<Gsap_1 />} /> 
+      <Route path="/gsap2" element={<Gsap_2 />} />
+      <Route path="/browser" element={<Browser />} />
     </Routes>
   </BrowserRouter>
 </Provider>
