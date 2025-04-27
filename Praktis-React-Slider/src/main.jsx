@@ -11,7 +11,7 @@ import Gsap from "./Components/gsap/Gsap.jsx";
 import Gsap_1 from "./Components/gsap/Gsap_1.jsx";
 import Gsap_2 from "./Components/gsap/Gsap_2.jsx";
 import Browser from "./page/Browser.jsx";
-
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const root = document.getElementById("root");+
@@ -30,5 +30,6 @@ ReactDOM.createRoot(root).render(
       <Route path="/browser" element={<Browser />} />
     </Routes>
   </BrowserRouter>
+  <Toaster />
 </Provider>
 );
