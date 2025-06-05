@@ -1,0 +1,120 @@
+
+:root {
+    --text-color: red;
+    --text-size: 5rem;
+}
+
+/* Leaning gradient Linear */
+.divForme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(to left,red,blue);
+}
+
+.divForU{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(48deg,red,blue);
+}
+
+.divForHim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(red 20%,blue);
+}
+
+/* Leaning gradient Radial */
+.divForme2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: radial-gradient(circle,blue,cyan);
+}
+
+.divForU2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(48deg,red,blue);
+}
+
+.divForHim2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(red 20%,blue);
+}
+
+/* Leaning gradient conic */
+.divForme3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: conic-gradient(red ,blue,green,yellow);
+}
+
+.divForU3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(48deg,red,blue);
+}
+
+.divForHim3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 12px;
+    background: linear-gradient(red 20%,blue);
+}
+
+
+
+
