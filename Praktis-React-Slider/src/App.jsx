@@ -12,6 +12,8 @@ function App() {
         <Link to='/baner3'>animation 3</Link>
         <Link to='/gsap'>Gsap</Link>
         <Link to='/browser'>Browser</Link>
+        <Link to='/design'>Design</Link>
+        <Link to='/image'>ImageBB Hosing</Link>
       </div>
       
     </div>
