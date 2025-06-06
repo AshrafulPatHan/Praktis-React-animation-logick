@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
+import ScrollSection from "./ScrollSection";
 
 
 export default function Gsap_1(){
@@ -19,6 +20,11 @@ export default function Gsap_1(){
          ref={boxRef}
          className="w-24 h-24 bg-green-500 rounded-lg shadow-lg"
          ></div>
+         <div className="w-full ">
+            <ScrollSection/>
+            <ScrollSection/>
+            <ScrollSection/>
+         </div>
       </div>
    )
 }
