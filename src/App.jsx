@@ -7,7 +7,7 @@ function App() {
     <div className='bg-[#1a1212] h-screen text-white '>
       <h2 className='text-center font-bold text-5xl text-blue-500 mb-5'>All Project</h2>
       <div className='flex flex-col items-center gap-3'>
-        <Link to='/'>1</Link>
+        <Link to='/lu-slider' className='hover:underline'>Liquid slider</Link>
       </div>
     </div>
   )
