@@ -9,6 +9,7 @@ function App() {
       <div className='flex flex-col items-center gap-3'>
         <Link to='/lu-slider' className='hover:underline'>Liquid slider</Link>
         <Link to='/css-advance' className='hover:underline'>Css Advance</Link>
+        <Link to='/css-sudo' className='hover:underline'>Sudo Element</Link>
       </div>
     </div>
   )
