@@ -1,17 +1,11 @@
-Body{
-    background: #000;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 /* style the text */
 
-h1{
+.h1{
     position: relative;
     width: max-content;
 }
-h1::after{
+.h1::after{
     content: "";
     background: linear-gradient(to right ,red,blue);
     border-radius: 100px;
@@ -24,7 +18,7 @@ h1::after{
 
 
 /* style button */
-button{
+.button{
     padding: 1em 2em;
     background-color: #161a20;
     border: none;
@@ -38,7 +32,7 @@ button{
     align-items: center;
     justify-content: center;
 }
-button::after{
+.button::after{
     content: "";
     position: absolute;
     width: 102%;
@@ -48,7 +42,7 @@ button::after{
     z-index: -1;
 
 }
-button:hover{
+.button:hover{
     z-index: 0;
     box-shadow: 40px 0 100px #008cff94,-40px 0 100px #008cff94;
 }
