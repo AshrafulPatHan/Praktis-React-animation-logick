@@ -16,7 +16,7 @@ const Css = () => {
                 </div>
                 {/* gloing card */}
                 <div>
-                    <div ></div>
+                    <div className='card' ></div>
                 </div>
             </div>
             <h3 className='mt-10'>Css Columns</h3>

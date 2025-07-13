@@ -1,11 +1,12 @@
-import React from 'react';
+import './sudo.css';
 
 const Sudo_Ele = () => {
     return (
-        <div>
+        <div className='flex flex-col items-center gap-9'>
             <div>
-                
+                <h1>My Sudo Element</h1>
             </div>
+            <button>The Gradient Button</button>
         </div>
     );
 };
