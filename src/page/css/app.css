@@ -1,0 +1,17 @@
+
+.btn-border-image{
+    width: 220px;
+    height: 60px;
+    background: #131212;
+    color: white;
+    margin-top: 10px;
+    border: 4px solid;
+    border-image: linear-gradient(to right, #0066ff, #ff32d6)   1;
+}
+
+/* app.css বা globals.css */
+.border-image-btn {
+  border: 4px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #0066ff, #ff32d6);
+}
