@@ -1,13 +1,2 @@
 @import "tailwindcss";
 
-
-/* inter font */
-.inter-main{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: auto;
-    font-style: normal;
-  }
-
-
-
