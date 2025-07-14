@@ -42,3 +42,19 @@
     flex-shrink: 1;
     flex-basis: 0; */
 }
+
+
+/* flex element inline */
+.card-flex{
+    width: 500px;
+    height: 260px;
+    background: #131212ef;
+    color: aqua;
+}
+.flex-anchor{
+    display: inline-flex;
+    /* display: flex; */
+    align-content: center;
+}
+
+

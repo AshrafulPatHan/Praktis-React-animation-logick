@@ -27,6 +27,14 @@ const Flex = () => {
                     <p className='flex-paragraph'>Lorem ipsuctetur. accusamus!</p>
                 </div>
             </div>
+            <div>
+                {/* flex element inline */}
+                <div className='card-flex'>
+                    <a className='flex-anchor' href="#">github</a>
+                    <a className='flex-anchor' href="#">facebook</a>
+                    <a className='flex-anchor' href="#">linkdin</a>
+                </div>
+            </div>
         </div>
     );
 };

@@ -1,4 +1,8 @@
 
+:root{
+  --brand-color: #39a87465;
+  --brand-scend: hsl(from var(--brand-color) h s l /0.5 )
+}
 
 .btn-border-image{
     width: 220px;
@@ -108,7 +112,13 @@
 }
 
 
-/* css flex 101 */
+/* css hsl color */
+.image-color-hsl{
+  background-image: url("../../assets/image/slider/3.jpg");
+  width: 70vw;
+  height: 10vh;
+  background: var(--brand-scend);
+}
 
 
 

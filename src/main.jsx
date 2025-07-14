@@ -7,6 +7,7 @@ import LSlider from "./page/slider/LSlider.jsx";
 import Css from "./page/css/Css.jsx";
 import Sudo_Ele from "./page/css/sudo/Sudo_Ele.jsx";
 import Flex from "./page/css/flex/Flex.jsx";
+import Gasp from "./page/gsap/start/Gasp.jsx";
 
 
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(root).render(
       <Route path="/css-advance" element={<Css />} />
       <Route path="/css-sudo" element={<Sudo_Ele />} />
       <Route path="/css-flex" element={<Flex />} />
+      <Route path="/gasp" element={<Gasp />} />
     </Routes>
     <Toaster />
   </BrowserRouter>

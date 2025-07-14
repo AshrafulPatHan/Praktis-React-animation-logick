@@ -49,7 +49,7 @@ const Css = () => {
             </div>
             {/* css flex 123 */}
             <div>
-                <div></div>
+                <div className='image-color-hsl'></div>
             </div>
         </div>
     );
