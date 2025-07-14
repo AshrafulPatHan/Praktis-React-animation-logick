@@ -10,6 +10,7 @@ function App() {
         <Link to='/lu-slider' className='hover:underline'>Liquid slider</Link>
         <Link to='/css-advance' className='hover:underline'>Css Advance</Link>
         <Link to='/css-sudo' className='hover:underline'>Sudo Element</Link>
+        <Link to='/css-flex' className='hover:underline'>Flex Element</Link>
       </div>
     </div>
   )

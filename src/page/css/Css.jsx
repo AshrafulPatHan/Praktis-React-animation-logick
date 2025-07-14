@@ -47,6 +47,10 @@ const Css = () => {
                 <div className='block mb-2 bg-amber-300 w-[300px] h-[700px] '></div>
                 <div className='block mb-2 bg-green-500 w-[300px] h-[400px] '></div>
             </div>
+            {/* css flex 123 */}
+            <div>
+                <div></div>
+            </div>
         </div>
     );
 };
