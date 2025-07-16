@@ -6,7 +6,7 @@ import './index.css'
 function App() {
 
   return (
-    <div className='bg-[#1a1212] h-screen text-white '>
+    <div className='bg-[#1a1212] text-white '>
       <h2 className='text-center font-bold text-5xl text-blue-500 mb-5'>All Project</h2>
       <div className='flex flex-col items-center gap-3'>
         <Link to='/lu-slider' className='hover:underline'>Liquid slider</Link>

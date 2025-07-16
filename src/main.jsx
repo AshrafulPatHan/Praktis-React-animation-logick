@@ -13,6 +13,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
+import From from "./page/gsap/formTo/From.jsx";
 
 
 
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
   { path: "/css-sudo",element: <Sudo_Ele /> },
   { path: "/css-flex",element: <Flex /> },
   { path: "/gasp",element: <Gasp /> },
+  { path: "/from",element: <From /> },
 ]);
 
 const root = document.getElementById("root");
