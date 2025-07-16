@@ -23,6 +23,10 @@ const From = () => {
             <div className="bg-blue-500 w-48 h-48 rounded-2xl mt-44 " id="blue-box-gsap"></div>
             <div className="bg-[#fff0] w-48 h-48 rounded-2xl mt-44 " ></div>
             <div className="bg-blue-500 w-48 h-48 rounded-2xl mt-44 " id="blue-fromDox-gsap"></div>
+            <div>
+                <h2 className='mt-3 mb-[500px] '>hello world</h2>
+                <h2 className='mt-3 mb-[500px] '>hello world</h2>
+            </div>
         </main>
     );
 };

@@ -1,11 +1,10 @@
-import React from 'react';
+import {useGSAP} from "@gsap/react";
 
 const Timeline = () => {
     return (
-        <div>
+        <div className="bg-black w-full flex flex-col items-center h-screen" style={{padding: "50px"}}>
             <div>
-                <h2 className='mt-3 mb-[500px] '>hello world</h2>
-                <h2 className='mt-3 mb-[500px] '>hello world</h2>
+                <div className="bg-amber-400 w-28 h-28" id="timeline-gsap"></div>
             </div>
         </div>
     );

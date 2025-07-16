@@ -7,12 +7,7 @@ import Css from "./page/css/Css.jsx";
 import Sudo_Ele from "./page/css/sudo/Sudo_Ele.jsx";
 import Flex from "./page/css/flex/Flex.jsx";
 import Gasp from "./page/gsap/start/Gasp.jsx";
-
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router";
+import {  createBrowserRouter,  RouterProvider, } from "react-router";
 import From from "./page/gsap/formTo/From.jsx";
 
 
