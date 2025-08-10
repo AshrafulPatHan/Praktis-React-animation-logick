@@ -14,6 +14,7 @@ function App() {
         <Link to='/css-sudo' className='hover:underline'>Sudo Element</Link>
         <Link to='/css-flex' className='hover:underline'>Flex Element</Link>
         <Link to='/gasp' className='hover:underline'>Gasp Element</Link>
+        <Link to='/liquid' className='hover:underline'>liquid Glass</Link>
       </div>
     </div>
   )

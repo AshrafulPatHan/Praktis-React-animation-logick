@@ -9,6 +9,7 @@ import Flex from "./page/css/flex/Flex.jsx";
 import Gasp from "./page/gsap/start/Gasp.jsx";
 import {  createBrowserRouter,  RouterProvider, } from "react-router";
 import From from "./page/gsap/formTo/From.jsx";
+import Liquid from "./page/liquid/Liquid.jsx";
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
   { path: "/css-flex",element: <Flex /> },
   { path: "/gasp",element: <Gasp /> },
   { path: "/from",element: <From /> },
+  { path: "/liquid",element: <Liquid /> },
 ]);
 
 const root = document.getElementById("root");
